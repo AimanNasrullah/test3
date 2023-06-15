@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TITLE</title>
+</head>
+<body>
+		<h1>Head</h1>
+		<form method="post" action="ServletMurung">
+			Name*:<br>
+			<input type="text" name="name" required><br><br>
+			Phone Number*:<br>
+			<input type="text" name="phone" required><br><br>
+			Email*:<br>
+			<input type="email" name="email" required><br><br>
+			Address*:<br>
+			<textarea name="address" rows="10" cols="30" required></textarea><br><br>
+			Baby/Toddler's Gender*:<br>
+			<input type="radio" name="gender" value="Boys" Checked>Boy
+			<input type="radio" name="gender" value="Girls" >Girl<br><br>
+			Service Duration(Hours)*: <br>
+			<input type="number" name="duration" min="2" max="12" required><br><br>
+			Day of Week*:<br>
+			<input type="radio" name="day" value="Weekday" Checked>Weekday
+			<input type="radio" name="day" value="Weekend" >Weekend<br><br>
+			number of Day(s)*: <br>
+			<input type="number" name="number" min="1" max="7" required><br><br>
+			<input type="submit" value="Get Quotation"> <input type="reset" value="Reset">
+		</form>
+</body>
+</html>
